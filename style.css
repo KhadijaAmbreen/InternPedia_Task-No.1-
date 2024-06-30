@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #0b0b0b;
+}
+nav {
+  padding: 20px 40px 20px 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+.nav-links a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 0px 8px;
+}
+.nav-links a:hover {
+  color: grey;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.right-nav {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  color: white;
+}
+.right-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+.container1 {
+  height: 90vh;
+  width: 100%;
+  background-image: url(dubai-bling-season-3-news-657ae58990036.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.container1 .con1-content {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+  font-size: 16px;
+  margin-left: 40px;
+}
+.container1 .con1-content span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #dae0e0;
+  font-weight: bold;
+}
+.con1-buttons {
+  display: flex;
+  gap: 20px;
+}
+.con1-buttons #play-btn {
+  background-color: white;
+  font-weight: bold;
+  width: 130px;
+  height: 50px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.con1-buttons #info-btn {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.436);
+  font-weight: bold;
+  width: 180px;
+  height: 50px;
+  font-size: 19px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+#container2 {
+  height: auto;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  padding: 20px 0px 20px 0px;
+  position: relative;
+}
+#con2-tiles {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0px;
+  overflow-x: hidden;
+  padding: 20px 40px;
+}
+#con2-tiles #left-chevron {
+  position: absolute;
+  top: 130px;
+  left: 0px;
+}
+#con2-tiles #right-chevron {
+  position: absolute;
+  top: 130px;
+  right: 0px;
+}
+#container3 {
+  height: auto;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  padding: 20px 0px 20px 0px;
+  position: relative;
+}
+#con3-tiles {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0px;
+  overflow-x: hidden;
+  padding: 20px 40px;
+}
+#con3-tiles #con3-left-chevron {
+  position: absolute;
+  top: 130px;
+  left: 0px;
+}
+#con3-tiles #con3-right-chevron {
+  position: absolute;
+  top: 130px;
+  right: 0px;
+}
+#container4 {
+  height: auto;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  padding: 20px 0px 20px 0px;
+  position: relative;
+}
+#con4-tiles {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0px;
+  overflow-x: hidden;
+  padding: 20px 40px;
+}
+#con4-tiles #con4-left-chevron {
+  position: absolute;
+  top: 130px;
+  left: 0px;
+}
+#con4-tiles #con4-right-chevron {
+  position: absolute;
+  top: 130px;
+  right: 0px;
+}
+#container5 {
+  height: auto;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  padding: 20px 0px 20px 0px;
+  position: relative;
+}
+#con5-tiles {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0px;
+  overflow-x: hidden;
+  padding: 20px 40px;
+}
+#con5-tiles #con5-left-chevron {
+  position: absolute;
+  top: 130px;
+  left: 0px;
+}
+#con5-tiles #con5-right-chevron {
+  position: absolute;
+  top: 130px;
+  right: 0px;
+}
+#container2 .tile img:hover,
+#container3 .tile img:hover,
+#container4 .tile img:hover,
+#container5 .tile img:hover {
+  cursor: pointer;
+  width: 300px;
+}
+
+footer {
+  height: auto;
+  padding: 80px 80px 0px 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.social {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.social i:hover {
+  cursor: pointer;
+}
+.links {
+  display: flex;
+  gap: 150px;
+  margin-bottom: 40px;
+}
+.links1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.links1 a {
+  text-decoration: none;
+  color: grey;
+  font-size: 14px;
+}
+.links1 a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.service-code {
+  width: 100px;
+  height: auto;
+  padding: 5px;
+  font-size: 14px;
+  color: grey;
+  border: 1px solid grey;
+  text-align: center;
+}
+.service-code:hover {
+  color: white;
+  cursor: pointer;
+}
+footer p {
+  font-size: 12px;
+  color: grey;
+  margin: 40px 0px 20px 0px;
+}
